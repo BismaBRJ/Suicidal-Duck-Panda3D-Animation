@@ -1,0 +1,888 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "dae2egg 'Models/Red Sofa/Red Sofa.dae' 'Red Sofa.egg'"
+}
+<Material> Material_002-material {
+  <Scalar> diffr { 0.240435 }
+  <Scalar> diffg { 0 }
+  <Scalar> diffb { 0 }
+  <Scalar> ambr { 0 }
+  <Scalar> ambg { 0 }
+  <Scalar> ambb { 0 }
+  <Scalar> emitr { 0 }
+  <Scalar> emitg { 0 }
+  <Scalar> emitb { 0 }
+  <Scalar> specr { 0.150272 }
+  <Scalar> specg { 0 }
+  <Scalar> specb { 0 }
+  <Scalar> shininess { 50 }
+}
+<Material> Material_001-material {
+  <Scalar> diffr { 0.240435 }
+  <Scalar> diffg { 0 }
+  <Scalar> diffb { 0 }
+  <Scalar> ambr { 0 }
+  <Scalar> ambg { 0 }
+  <Scalar> ambb { 0 }
+  <Scalar> emitr { 0 }
+  <Scalar> emitg { 0 }
+  <Scalar> emitb { 0 }
+  <Scalar> specr { 0.150272 }
+  <Scalar> specg { 0 }
+  <Scalar> specb { 0 }
+  <Scalar> shininess { 50 }
+}
+<Group> Scene {
+  <Dart> { 1 }
+  <Group> Camera {
+    <Transform> {
+      <Matrix4> {
+        0.685921 0.727676 0 0
+        -0.324014 0.305421 0.895396 0
+        0.651558 -0.61417 0.445271 0
+        7.48113 -6.50764 5.34367 1
+      }
+    }
+  }
+  <Group> Lamp {
+    <Transform> {
+      <Matrix4> {
+        -0.290865 0.955171 -0.0551891 0
+        -0.771101 -0.199883 0.604525 0
+        0.566393 0.218391 0.794672 0
+        4.07624 1.00545 5.90386 1
+      }
+    }
+  }
+  <Group> Base {
+    <Transform> {
+      <Matrix4> {
+        0.75 0 0 0
+        0 0.3 0 0
+        0 0 0.15 0
+        0 0 -0.15 1
+      }
+    }
+    <Group> Cube_001-mesh {
+      <VertexPool> Cube_001-mesh {
+        <Vertex> 0 {
+          -0.75 -0.3 0
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 1 {
+          -0.75 0.3 -0.3
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 2 {
+          -0.75 -0.3 -0.3
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 3 {
+          -0.75 0.3 0
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 4 {
+          0.75 0.3 -0.3
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 5 {
+          -0.75 0.3 -0.3
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 6 {
+          0.75 0.3 0
+          <Normal> { 1 0 0 }
+        }
+        <Vertex> 7 {
+          0.75 -0.3 -0.3
+          <Normal> { 1 0 0 }
+        }
+        <Vertex> 8 {
+          0.75 0.3 -0.3
+          <Normal> { 1 0 0 }
+        }
+        <Vertex> 9 {
+          0.75 -0.3 0
+          <Normal> { 0 -1 0 }
+        }
+        <Vertex> 10 {
+          -0.75 -0.3 -0.3
+          <Normal> { 0 -1 0 }
+        }
+        <Vertex> 11 {
+          0.75 -0.3 -0.3
+          <Normal> { 0 -1 0 }
+        }
+        <Vertex> 12 {
+          0.75 0.3 -0.3
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 13 {
+          -0.75 -0.3 -0.3
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 14 {
+          -0.75 0.3 -0.3
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 15 {
+          -0.75 0.3 0
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 16 {
+          0.75 -0.3 0
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 17 {
+          0.75 0.3 0
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 18 {
+          -0.75 -0.3 0
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 19 {
+          -0.75 0.3 0
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 20 {
+          -0.75 0.3 -0.3
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 21 {
+          -0.75 0.3 0
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 22 {
+          0.75 0.3 0
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 23 {
+          0.75 0.3 -0.3
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 24 {
+          0.75 0.3 0
+          <Normal> { 1 0 0 }
+        }
+        <Vertex> 25 {
+          0.75 -0.3 0
+          <Normal> { 1 0 0 }
+        }
+        <Vertex> 26 {
+          0.75 -0.3 -0.3
+          <Normal> { 1 0 0 }
+        }
+        <Vertex> 27 {
+          0.75 -0.3 0
+          <Normal> { 0 -1 0 }
+        }
+        <Vertex> 28 {
+          -0.75 -0.3 0
+          <Normal> { 0 -1 0 }
+        }
+        <Vertex> 29 {
+          -0.75 -0.3 -0.3
+          <Normal> { 0 -1 0 }
+        }
+        <Vertex> 30 {
+          0.75 0.3 -0.3
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 31 {
+          0.75 -0.3 -0.3
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 32 {
+          -0.75 -0.3 -0.3
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 33 {
+          -0.75 0.3 0
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 34 {
+          -0.75 -0.3 0
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 35 {
+          0.75 -0.3 0
+          <Normal> { 0 0 1 }
+        }
+      }
+      <Polygon> {
+        <MRef> { Material_001-material }
+        <VertexRef> { 0 1 2 <Ref> { Cube_001-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_001-material }
+        <VertexRef> { 3 4 5 <Ref> { Cube_001-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_001-material }
+        <VertexRef> { 6 7 8 <Ref> { Cube_001-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_001-material }
+        <VertexRef> { 9 10 11 <Ref> { Cube_001-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_001-material }
+        <VertexRef> { 12 13 14 <Ref> { Cube_001-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_001-material }
+        <VertexRef> { 15 16 17 <Ref> { Cube_001-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_001-material }
+        <VertexRef> { 18 19 20 <Ref> { Cube_001-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_001-material }
+        <VertexRef> { 21 22 23 <Ref> { Cube_001-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_001-material }
+        <VertexRef> { 24 25 26 <Ref> { Cube_001-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_001-material }
+        <VertexRef> { 27 28 29 <Ref> { Cube_001-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_001-material }
+        <VertexRef> { 30 31 32 <Ref> { Cube_001-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_001-material }
+        <VertexRef> { 33 34 35 <Ref> { Cube_001-mesh } }
+      }
+    }
+  }
+  <Group> Left_Handle {
+    <Transform> {
+      <Matrix4> {
+        0.05 0 0 0
+        0 0.3 0 0
+        0 0 0.15 0
+        -0.7 0 0.15 1
+      }
+    }
+    <Group> Cube_002-mesh {
+      <VertexPool> Cube_002-mesh {
+        <Vertex> 0 {
+          -0.75 -0.3 0.3
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 1 {
+          -0.75 0.3 0
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 2 {
+          -0.75 -0.3 0
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 3 {
+          -0.75 0.3 0.3
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 4 {
+          -0.65 0.3 0
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 5 {
+          -0.75 0.3 0
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 6 {
+          -0.65 0.3 0.3
+          <Normal> { 1 0 0 }
+        }
+        <Vertex> 7 {
+          -0.65 -0.3 0
+          <Normal> { 1 0 0 }
+        }
+        <Vertex> 8 {
+          -0.65 0.3 0
+          <Normal> { 1 0 0 }
+        }
+        <Vertex> 9 {
+          -0.65 -0.3 0.3
+          <Normal> { 0 -1 0 }
+        }
+        <Vertex> 10 {
+          -0.75 -0.3 0
+          <Normal> { 0 -1 0 }
+        }
+        <Vertex> 11 {
+          -0.65 -0.3 0
+          <Normal> { 0 -1 0 }
+        }
+        <Vertex> 12 {
+          -0.65 0.3 0
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 13 {
+          -0.75 -0.3 0
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 14 {
+          -0.75 0.3 0
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 15 {
+          -0.75 0.3 0.3
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 16 {
+          -0.65 -0.3 0.3
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 17 {
+          -0.65 0.3 0.3
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 18 {
+          -0.75 -0.3 0.3
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 19 {
+          -0.75 0.3 0.3
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 20 {
+          -0.75 0.3 0
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 21 {
+          -0.75 0.3 0.3
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 22 {
+          -0.65 0.3 0.3
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 23 {
+          -0.65 0.3 0
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 24 {
+          -0.65 0.3 0.3
+          <Normal> { 1 0 0 }
+        }
+        <Vertex> 25 {
+          -0.65 -0.3 0.3
+          <Normal> { 1 0 0 }
+        }
+        <Vertex> 26 {
+          -0.65 -0.3 0
+          <Normal> { 1 0 0 }
+        }
+        <Vertex> 27 {
+          -0.65 -0.3 0.3
+          <Normal> { 0 -1 0 }
+        }
+        <Vertex> 28 {
+          -0.75 -0.3 0.3
+          <Normal> { 0 -1 0 }
+        }
+        <Vertex> 29 {
+          -0.75 -0.3 0
+          <Normal> { 0 -1 0 }
+        }
+        <Vertex> 30 {
+          -0.65 0.3 0
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 31 {
+          -0.65 -0.3 0
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 32 {
+          -0.75 -0.3 0
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 33 {
+          -0.75 0.3 0.3
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 34 {
+          -0.75 -0.3 0.3
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 35 {
+          -0.65 -0.3 0.3
+          <Normal> { 0 0 1 }
+        }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 0 1 2 <Ref> { Cube_002-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 3 4 5 <Ref> { Cube_002-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 6 7 8 <Ref> { Cube_002-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 9 10 11 <Ref> { Cube_002-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 12 13 14 <Ref> { Cube_002-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 15 16 17 <Ref> { Cube_002-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 18 19 20 <Ref> { Cube_002-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 21 22 23 <Ref> { Cube_002-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 24 25 26 <Ref> { Cube_002-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 27 28 29 <Ref> { Cube_002-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 30 31 32 <Ref> { Cube_002-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 33 34 35 <Ref> { Cube_002-mesh } }
+      }
+    }
+  }
+  <Group> Right_Handle {
+    <Transform> {
+      <Matrix4> {
+        0.05 0 0 0
+        0 0.3 0 0
+        0 0 0.15 0
+        0.7 0 0.15 1
+      }
+    }
+    <Group> Cube_003-mesh {
+      <VertexPool> Cube_003-mesh {
+        <Vertex> 0 {
+          0.65 -0.3 0.3
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 1 {
+          0.65 0.3 0
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 2 {
+          0.65 -0.3 0
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 3 {
+          0.65 0.3 0.3
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 4 {
+          0.75 0.3 0
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 5 {
+          0.65 0.3 0
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 6 {
+          0.75 0.3 0.3
+          <Normal> { 1 0 0 }
+        }
+        <Vertex> 7 {
+          0.75 -0.3 0
+          <Normal> { 1 0 0 }
+        }
+        <Vertex> 8 {
+          0.75 0.3 0
+          <Normal> { 1 0 0 }
+        }
+        <Vertex> 9 {
+          0.75 -0.3 0.3
+          <Normal> { 0 -1 0 }
+        }
+        <Vertex> 10 {
+          0.65 -0.3 0
+          <Normal> { 0 -1 0 }
+        }
+        <Vertex> 11 {
+          0.75 -0.3 0
+          <Normal> { 0 -1 0 }
+        }
+        <Vertex> 12 {
+          0.75 0.3 0
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 13 {
+          0.65 -0.3 0
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 14 {
+          0.65 0.3 0
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 15 {
+          0.65 0.3 0.3
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 16 {
+          0.75 -0.3 0.3
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 17 {
+          0.75 0.3 0.3
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 18 {
+          0.65 -0.3 0.3
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 19 {
+          0.65 0.3 0.3
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 20 {
+          0.65 0.3 0
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 21 {
+          0.65 0.3 0.3
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 22 {
+          0.75 0.3 0.3
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 23 {
+          0.75 0.3 0
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 24 {
+          0.75 0.3 0.3
+          <Normal> { 1 0 0 }
+        }
+        <Vertex> 25 {
+          0.75 -0.3 0.3
+          <Normal> { 1 0 0 }
+        }
+        <Vertex> 26 {
+          0.75 -0.3 0
+          <Normal> { 1 0 0 }
+        }
+        <Vertex> 27 {
+          0.75 -0.3 0.3
+          <Normal> { 0 -1 0 }
+        }
+        <Vertex> 28 {
+          0.65 -0.3 0.3
+          <Normal> { 0 -1 0 }
+        }
+        <Vertex> 29 {
+          0.65 -0.3 0
+          <Normal> { 0 -1 0 }
+        }
+        <Vertex> 30 {
+          0.75 0.3 0
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 31 {
+          0.75 -0.3 0
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 32 {
+          0.65 -0.3 0
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 33 {
+          0.65 0.3 0.3
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 34 {
+          0.65 -0.3 0.3
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 35 {
+          0.75 -0.3 0.3
+          <Normal> { 0 0 1 }
+        }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 0 1 2 <Ref> { Cube_003-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 3 4 5 <Ref> { Cube_003-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 6 7 8 <Ref> { Cube_003-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 9 10 11 <Ref> { Cube_003-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 12 13 14 <Ref> { Cube_003-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 15 16 17 <Ref> { Cube_003-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 18 19 20 <Ref> { Cube_003-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 21 22 23 <Ref> { Cube_003-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 24 25 26 <Ref> { Cube_003-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 27 28 29 <Ref> { Cube_003-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 30 31 32 <Ref> { Cube_003-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 33 34 35 <Ref> { Cube_003-mesh } }
+      }
+    }
+  }
+  <Group> Back {
+    <Transform> {
+      <Matrix4> {
+        -2.18557e-09 0.05 0 0
+        -0.747406 -3.26701e-08 0 0
+        0 0 0.15 0
+        0 0.25 0.15 1
+      }
+    }
+    <Group> Cube_004-mesh {
+      <VertexPool> Cube_004-mesh {
+        <Vertex> 0 {
+          0.747406 0.2 0.3
+          <Normal> { 4.37114e-08 -1 0 }
+        }
+        <Vertex> 1 {
+          -0.747406 0.2 0
+          <Normal> { 4.37114e-08 -1 0 }
+        }
+        <Vertex> 2 {
+          0.747406 0.2 0
+          <Normal> { 4.37114e-08 -1 0 }
+        }
+        <Vertex> 3 {
+          -0.747406 0.2 0.3
+          <Normal> { -1 -4.37113e-08 0 }
+        }
+        <Vertex> 4 {
+          -0.747406 0.3 0
+          <Normal> { -1 -4.37113e-08 0 }
+        }
+        <Vertex> 5 {
+          -0.747406 0.2 0
+          <Normal> { -1 -4.37113e-08 0 }
+        }
+        <Vertex> 6 {
+          -0.747406 0.3 0.3
+          <Normal> { -4.37114e-08 1 0 }
+        }
+        <Vertex> 7 {
+          0.747406 0.3 0
+          <Normal> { -4.37114e-08 1 0 }
+        }
+        <Vertex> 8 {
+          -0.747406 0.3 0
+          <Normal> { -4.37114e-08 1 0 }
+        }
+        <Vertex> 9 {
+          0.747406 0.3 0.3
+          <Normal> { 1 4.37113e-08 0 }
+        }
+        <Vertex> 10 {
+          0.747406 0.2 0
+          <Normal> { 1 4.37113e-08 0 }
+        }
+        <Vertex> 11 {
+          0.747406 0.3 0
+          <Normal> { 1 4.37113e-08 0 }
+        }
+        <Vertex> 12 {
+          -0.747406 0.3 0
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 13 {
+          0.747406 0.2 0
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 14 {
+          -0.747406 0.2 0
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 15 {
+          -0.747406 0.2 0.3
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 16 {
+          0.747406 0.3 0.3
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 17 {
+          -0.747406 0.3 0.3
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 18 {
+          0.747406 0.2 0.3
+          <Normal> { 4.37114e-08 -1 0 }
+        }
+        <Vertex> 19 {
+          -0.747406 0.2 0.3
+          <Normal> { 4.37114e-08 -1 0 }
+        }
+        <Vertex> 20 {
+          -0.747406 0.2 0
+          <Normal> { 4.37114e-08 -1 0 }
+        }
+        <Vertex> 21 {
+          -0.747406 0.2 0.3
+          <Normal> { -1 -4.37113e-08 0 }
+        }
+        <Vertex> 22 {
+          -0.747406 0.3 0.3
+          <Normal> { -1 -4.37113e-08 0 }
+        }
+        <Vertex> 23 {
+          -0.747406 0.3 0
+          <Normal> { -1 -4.37113e-08 0 }
+        }
+        <Vertex> 24 {
+          -0.747406 0.3 0.3
+          <Normal> { -4.37114e-08 1 0 }
+        }
+        <Vertex> 25 {
+          0.747406 0.3 0.3
+          <Normal> { -4.37114e-08 1 0 }
+        }
+        <Vertex> 26 {
+          0.747406 0.3 0
+          <Normal> { -4.37114e-08 1 0 }
+        }
+        <Vertex> 27 {
+          0.747406 0.3 0.3
+          <Normal> { 1 4.37113e-08 0 }
+        }
+        <Vertex> 28 {
+          0.747406 0.2 0.3
+          <Normal> { 1 4.37113e-08 0 }
+        }
+        <Vertex> 29 {
+          0.747406 0.2 0
+          <Normal> { 1 4.37113e-08 0 }
+        }
+        <Vertex> 30 {
+          -0.747406 0.3 0
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 31 {
+          0.747406 0.3 0
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 32 {
+          0.747406 0.2 0
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 33 {
+          -0.747406 0.2 0.3
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 34 {
+          0.747406 0.2 0.3
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 35 {
+          0.747406 0.3 0.3
+          <Normal> { 0 0 1 }
+        }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 0 1 2 <Ref> { Cube_004-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 3 4 5 <Ref> { Cube_004-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 6 7 8 <Ref> { Cube_004-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 9 10 11 <Ref> { Cube_004-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 12 13 14 <Ref> { Cube_004-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 15 16 17 <Ref> { Cube_004-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 18 19 20 <Ref> { Cube_004-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 21 22 23 <Ref> { Cube_004-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 24 25 26 <Ref> { Cube_004-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 27 28 29 <Ref> { Cube_004-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 30 31 32 <Ref> { Cube_004-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material_002-material }
+        <VertexRef> { 33 34 35 <Ref> { Cube_004-mesh } }
+      }
+    }
+  }
+}
+<Table> {
+  <Bundle> Scene {
+    <Table> "<skeleton>" {
+    }
+  }
+}

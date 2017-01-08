@@ -1,0 +1,42 @@
+For all the following commands,
+Remove “.exe” on Mac.
+
+
+
+Source:
+https://www.youtube.com/watch?v=_Ya9U0WTmYs
+
+Extract .mf File Command:
+multify.exe -x -f phase_insertPhaseHere.mf
+
+Compile .mf File Command:
+multify.exe -c -f phase_insertPhaseHere.mf phase_insertPhaseHere
+
+
+
+Model View Command:
+pview.exe model.egg
+or
+pview.exe model.bam
+
+
+
+Conversion Commands:
+
+dae2egg.exe model.dae newname.egg
+
+egg2bam.exe model.egg newname.bam
+
+
+
+Make your own models in Blender.
+
+Some Tips:
+- Press “G” or Transform to move it anywhere if you need.
+- Press “R” or Rotate to rotate it around.
+- Press “S” or Scale to resize it.
+- You can also use the Properties panel (press that plus sign on the top-right to turn on) to modify properties of the object.
+- There are also some toggle-able buttons below with appropriate icons to transform, rotate, and scale.
+- All the above can be done in Object mode.
+- Press “Tab” to toggle between Object and Edit mode.
+- There is a 3D cursor that you can move by left-clicking on some spot, which will be the place where new objects will appear if you decide to add some. This can be centered by clicking Object/Mesh (depending on if you’re on Object or Edit mode) > Snap > Cursor to Center.

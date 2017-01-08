@@ -1,0 +1,267 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "dae2egg 'Models/Blue Glass Window Scalable/Blue Glass Window Scalable.dae' 'Blue Glass Window Scalable.egg'"
+}
+<Material> Material-material {
+  <Scalar> diffr { 0.426621 }
+  <Scalar> diffg { 0.671039 }
+  <Scalar> diffb { 0.723729 }
+  <Scalar> ambr { 0 }
+  <Scalar> ambg { 0 }
+  <Scalar> ambb { 0 }
+  <Scalar> emitr { 0 }
+  <Scalar> emitg { 0 }
+  <Scalar> emitb { 0 }
+  <Scalar> specr { 0.266638 }
+  <Scalar> specg { 0.4194 }
+  <Scalar> specb { 0.452331 }
+  <Scalar> shininess { 50 }
+}
+<Group> Scene {
+  <Dart> { 1 }
+  <Group> Camera {
+    <Transform> {
+      <Matrix4> {
+        0.685921 0.727676 0 0
+        -0.324014 0.305421 0.895396 0
+        0.651558 -0.61417 0.445271 0
+        7.48113 -6.50764 5.34367 1
+      }
+    }
+  }
+  <Group> Lamp {
+    <Transform> {
+      <Matrix4> {
+        -0.290865 0.955171 -0.0551891 0
+        -0.771101 -0.199883 0.604525 0
+        0.566393 0.218391 0.794672 0
+        4.07624 1.00545 5.90386 1
+      }
+    }
+  }
+  <Group> Cube {
+    <Transform> {
+      <Matrix4> {
+        0.5 0 0 0
+        0 0.5 0 0
+        0 0 1.5 0
+        0 0 0 1
+      }
+    }
+    <Group> Cube-mesh {
+      <VertexPool> Cube-mesh {
+        <Vertex> 0 {
+          0.5 0.5 -1.5
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 1 {
+          -0.5 -0.5 -1.5
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 2 {
+          -0.5 0.5 -1.5
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 3 {
+          -0.5 0.5 1.5
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 4 {
+          0.499999 -0.5 1.5
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 5 {
+          0.5 0.5 1.5
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 6 {
+          0.5 0.5 1.5
+          <Normal> { 1 0 -7.15257e-07 }
+        }
+        <Vertex> 7 {
+          0.5 -0.5 -1.5
+          <Normal> { 1 0 -7.15257e-07 }
+        }
+        <Vertex> 8 {
+          0.5 0.5 -1.5
+          <Normal> { 1 0 -7.15257e-07 }
+        }
+        <Vertex> 9 {
+          0.499999 -0.5 1.5
+          <Normal> { 0 -1 -1.43051e-06 }
+        }
+        <Vertex> 10 {
+          -0.5 -0.5 -1.5
+          <Normal> { 0 -1 -1.43051e-06 }
+        }
+        <Vertex> 11 {
+          0.5 -0.5 -1.5
+          <Normal> { 0 -1 -1.43051e-06 }
+        }
+        <Vertex> 12 {
+          -0.5 -0.5 -1.5
+          <Normal> { -1 2.38419e-07 -4.47036e-07 }
+        }
+        <Vertex> 13 {
+          -0.5 0.5 1.5
+          <Normal> { -1 2.38419e-07 -4.47036e-07 }
+        }
+        <Vertex> 14 {
+          -0.5 0.5 -1.5
+          <Normal> { -1 2.38419e-07 -4.47036e-07 }
+        }
+        <Vertex> 15 {
+          0.5 0.5 -1.5
+          <Normal> { 2.68221e-07 1 7.15257e-07 }
+        }
+        <Vertex> 16 {
+          -0.5 0.5 1.5
+          <Normal> { 2.68221e-07 1 7.15257e-07 }
+        }
+        <Vertex> 17 {
+          0.5 0.5 1.5
+          <Normal> { 2.68221e-07 1 7.15257e-07 }
+        }
+        <Vertex> 18 {
+          0.5 0.5 -1.5
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 19 {
+          0.5 -0.5 -1.5
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 20 {
+          -0.5 -0.5 -1.5
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 21 {
+          -0.5 0.5 1.5
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 22 {
+          -0.5 -0.5 1.5
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 23 {
+          0.499999 -0.5 1.5
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 24 {
+          0.5 0.5 1.5
+          <Normal> { 1 -5.96046e-07 9.83475e-07 }
+        }
+        <Vertex> 25 {
+          0.499999 -0.5 1.5
+          <Normal> { 1 -5.96046e-07 9.83475e-07 }
+        }
+        <Vertex> 26 {
+          0.5 -0.5 -1.5
+          <Normal> { 1 -5.96046e-07 9.83475e-07 }
+        }
+        <Vertex> 27 {
+          0.499999 -0.5 1.5
+          <Normal> { -4.76837e-07 -1 0 }
+        }
+        <Vertex> 28 {
+          -0.5 -0.5 1.5
+          <Normal> { -4.76837e-07 -1 0 }
+        }
+        <Vertex> 29 {
+          -0.5 -0.5 -1.5
+          <Normal> { -4.76837e-07 -1 0 }
+        }
+        <Vertex> 30 {
+          -0.5 -0.5 -1.5
+          <Normal> { -1 2.38419e-07 -3.57627e-07 }
+        }
+        <Vertex> 31 {
+          -0.5 -0.5 1.5
+          <Normal> { -1 2.38419e-07 -3.57627e-07 }
+        }
+        <Vertex> 32 {
+          -0.5 0.5 1.5
+          <Normal> { -1 2.38419e-07 -3.57627e-07 }
+        }
+        <Vertex> 33 {
+          0.5 0.5 -1.5
+          <Normal> { 2.08616e-07 1 0 }
+        }
+        <Vertex> 34 {
+          -0.5 0.5 -1.5
+          <Normal> { 2.08616e-07 1 0 }
+        }
+        <Vertex> 35 {
+          -0.5 0.5 1.5
+          <Normal> { 2.08616e-07 1 0 }
+        }
+      }
+      <Polygon> {
+        <MRef> { Material-material }
+        <BFace> { 1 }
+        <VertexRef> { 0 1 2 <Ref> { Cube-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material-material }
+        <BFace> { 1 }
+        <VertexRef> { 3 4 5 <Ref> { Cube-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material-material }
+        <BFace> { 1 }
+        <VertexRef> { 6 7 8 <Ref> { Cube-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material-material }
+        <BFace> { 1 }
+        <VertexRef> { 9 10 11 <Ref> { Cube-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material-material }
+        <BFace> { 1 }
+        <VertexRef> { 12 13 14 <Ref> { Cube-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material-material }
+        <BFace> { 1 }
+        <VertexRef> { 15 16 17 <Ref> { Cube-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material-material }
+        <BFace> { 1 }
+        <VertexRef> { 18 19 20 <Ref> { Cube-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material-material }
+        <BFace> { 1 }
+        <VertexRef> { 21 22 23 <Ref> { Cube-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material-material }
+        <BFace> { 1 }
+        <VertexRef> { 24 25 26 <Ref> { Cube-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material-material }
+        <BFace> { 1 }
+        <VertexRef> { 27 28 29 <Ref> { Cube-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material-material }
+        <BFace> { 1 }
+        <VertexRef> { 30 31 32 <Ref> { Cube-mesh } }
+      }
+      <Polygon> {
+        <MRef> { Material-material }
+        <BFace> { 1 }
+        <VertexRef> { 33 34 35 <Ref> { Cube-mesh } }
+      }
+    }
+  }
+}
+<Table> {
+  <Bundle> Scene {
+    <Table> "<skeleton>" {
+    }
+  }
+}
